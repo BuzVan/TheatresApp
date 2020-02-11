@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TheatresApp</string>
+
+    <string name="theaterTUZ_name">Theatre on Spasskaya</string>
+    <string name="theaterTUZ_address">Kirov, Spasskaya str., 17</string>
+    <string name="theaterDrama_name">The Kirov drama theatre</string>
+    <string name="theaterDrama_address">Kirov, Moskovskaya str., 37</string>
+    <string name="theaterDol_name">The Kirov theatre of dolls of a name of A. N. Afanasyev</string>
+    <string name="theaterDol_address">Kirov, Spasskaya str., 22</string>
+    <string name="text_VK">VK</string>
+    <string name="text_phone">phone number</string>
+    <string name="text_poster">poster</string>
+    <string name="text_site">website</string>
+    <string name="text_theater">theater</string>
+    <string name="text_troupe">troupe</string>
+
+
+</resources>

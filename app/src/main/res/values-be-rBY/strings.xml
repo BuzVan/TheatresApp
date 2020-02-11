@@ -1,0 +1,17 @@
+<resources>
+<string name="app_name">TheatresApp</string>
+
+<string name="theaterTUZ_name">ТЭАТР на Спаскай</string>
+<string name="theaterTUZ_address">г. Кіраў, вул Спаская, 17</string>
+<string name="theaterDrama_name">Кіраўскі драматычны тэатр</string>
+<string name="theaterDrama_address">г. Кіраў, вул Маскоўская, 37</string>
+<string name="theaterDol_name">Кіраўскі тэатр лялек імя А. М. Афанасьева</string>
+<string name="theaterDol_address">г. Кіраў, вул Спаская, 22</string>
+    <string name="text_VK">ВК</string>
+    <string name="text_phone">нумар тэлефона</string>
+    <string name="text_poster">афіша</string>
+    <string name="text_site">сайт</string>
+    <string name="text_theater">тэатр</string>
+    <string name="text_troupe">трупа</string>
+
+</resources>

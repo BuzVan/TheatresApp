@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TheatresApp</string>
+
+    <string name="theaterTUZ_name">Театр на Спасской</string>
+    <string name="theaterTUZ_address">г.Киров, ул. Спасская,17</string>
+    <string name="theaterDrama_name">Кировский драматический театр</string>
+    <string name="theaterDrama_address">г.Киров, ул. Московская,37</string>
+    <string name="theaterDol_name">Кировский театр кукол имени А.Н. Афанасьева</string>
+    <string name="theaterDol_address">г.Киров, ул. Спасская,22</string>
+    <string name="text_theater">театр</string>
+    <string name="text_VK">ВК</string>
+    <string name="text_site">сайт</string>
+    <string name="text_phone">телефон</string>
+    <string name="text_poster">афиша</string>
+    <string name="text_troupe">труппа</string>
+</resources>
