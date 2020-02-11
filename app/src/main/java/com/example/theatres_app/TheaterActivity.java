@@ -2,7 +2,9 @@ package com.example.theatres_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -38,5 +40,14 @@ public class TheaterActivity extends AppCompatActivity {
 
         TextView theaterAddressTextView = findViewById(R.id.theater_address_text_view);
         theaterAddressTextView.setText(theater.getAddress());
+    }
+
+    public void TroupeButtonClick(View view) {
+
+        Intent intent = new Intent(getApplicationContext(), ActorsActivity.class);
+        intent.putExtra("theater", theater);
+
+
+        startActivity(intent);
     }
 }

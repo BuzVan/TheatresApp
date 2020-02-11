@@ -28,6 +28,7 @@
     <string name="text_phone">телефон</string>
     <string name="text_poster">афиша</string>
     <string name="text_troupe">труппа</string>
+    <string name="toolbar_text">Театры Кирова</string>
 
     <string-array name="theater_names">
         <item>@string/theaterTUZ_name</item>
