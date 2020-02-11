@@ -14,7 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/card_margin"
-        style="@style/CardViewStyleLightGreen">
+        style="@style/CardViewStyleLightGreen"
+        android:onClick="onCardClick">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -64,7 +65,7 @@
         style="@style/CardViewStyleLightGreen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:onClick="onCardClick"
         android:layout_margin="@dimen/card_margin">
 
         <!-- Для расположения элементов внутри CardView использовать ConstraintLayout -->
@@ -116,6 +117,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/card_margin"
+        android:onClick="onCardClick"
         style="@style/CardViewStyleLightGreen">
 
         <!-- Для расположения элементов внутри CardView использовать LinearLayout -->

@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:contentDescription="@string/text_theater"
-        tools:srcCompat="@tools:sample/backgrounds/scenic[8]">
+        android:src="@drawable/tuz_image">
 
     </ImageView>
 
@@ -153,7 +153,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/text_poster"
-            style="@style/Widget.AppCompat.Button.Borderless" />
+            style="@style/Widget.AppCompat.Button"
+            />
 
         <Button
             android:id="@+id/troupe"
@@ -161,7 +162,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/text_troupe"
-            style="@style/Widget.AppCompat.Button.Borderless" />
+            style="@style/Widget.AppCompat.Button"/>
     </LinearLayout>
 
     <Space
