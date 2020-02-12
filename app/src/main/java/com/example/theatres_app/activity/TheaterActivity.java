@@ -1,4 +1,4 @@
-package com.example.theatres_app;
+package com.example.theatres_app.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.theatres_app.R;
 import com.example.theatres_app.model.Theater;
 
 public class TheaterActivity extends AppCompatActivity {
