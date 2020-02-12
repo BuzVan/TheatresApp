@@ -33,7 +33,9 @@ public class JSoupActorService extends JSoupService {
         for (int i=0;i<images.size();i++){
             Element actor = personList.getElementsByClass("td" + i).first();
             String imageUrl = TUZ_SITE + images.get(i).attr("src");
-            String name = actor.text();
+            String name = actor.
+                    getElementsByTag("p").last().
+                    getElementsByTag("a").first().text();
             actors.add(new Actor(name, imageUrl));
         }
         return actors;
