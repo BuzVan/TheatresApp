@@ -60,7 +60,7 @@ public class ActorsActivity extends AppCompatActivity {
         protected Void doInBackground(Void... voids) {
             try {
                 Document document= JSoupService.goToHref(theater.getTroupeUrl());
-                actors = JSoupActorService.getActorsListByTheater(theater, document);
+                actors = JSoupActorService.getActorsList(document);
 
                 System.out.println("Actors all: " + actors.size());
             } catch (IOException e) {
@@ -74,7 +74,6 @@ public class ActorsActivity extends AppCompatActivity {
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
             actorAdapter = new ActorAdapter(actors);
-            //TODO не уверен сколько актеров в строке - 1 или 2
             actorRecyclerView.setLayoutManager(new GridLayoutManager(actorsActivity,2));
             actorRecyclerView.setAdapter(actorAdapter);
         }

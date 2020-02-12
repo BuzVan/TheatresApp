@@ -3,7 +3,7 @@
 
     <string name="theaterTUZ_name">Театр на Спасской</string>
     <string name="theaterTUZ_address">г.Киров, ул. Спасская,17</string>
-    <string name="theaterTUZ_site" translatable="false">ekvus-kirov.ru</string>
+    <string name="theaterTUZ_site" translatable="false">https://ekvus-kirov.ru</string>
     <string name="theaterTUZ_vk" translatable="false">https://vk.com/theateronthespasskaya</string>
     <string name="theaterTUZ_tel" translatable="false">+7 (8332) 71-57-20</string>
 

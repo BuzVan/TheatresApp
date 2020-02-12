@@ -25,7 +25,6 @@ public class Theater implements Serializable {
 
 
     public void setImageId(int imageId) {
-        //TODO описать сеттер ????
         this.imageId = imageId;
     }
 
