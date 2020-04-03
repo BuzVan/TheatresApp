@@ -89,23 +89,25 @@
 
             <TextView
                 android:id="@+id/theaterDrama_name_text_view"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/margin_after_image"
+                android:layout_marginStart="@dimen/margin_left"
                 android:text="@string/theaterDrama_name"
                 android:textSize="@dimen/theater_name_size"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/theaterDrama_image_view"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/theaterDrama_address_text_view"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/margin_after_image"
+                android:layout_marginStart="@dimen/margin_left"
                 android:layout_marginTop="@dimen/margin_top"
                 android:text="@string/theaterDrama_address"
                 android:textSize="@dimen/theater_address_size"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/theaterDrama_image_view"
                 app:layout_constraintTop_toBottomOf="@+id/theaterDrama_name_text_view" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
