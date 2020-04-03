@@ -9,7 +9,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.theatres_app.ActorsActivity;
 import com.example.theatres_app.R;
 import com.example.theatres_app.model.Actor;
 import com.squareup.picasso.Picasso;

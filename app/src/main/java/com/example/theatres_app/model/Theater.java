@@ -9,13 +9,14 @@ public class Theater implements Serializable {
     private String site;
     private String vk;
     private String tel;
-
-    public Theater(String name, String address, String site, String  vk, String tel){
+    private String troupeUrl;
+    public Theater(String name, String address, String site, String  vk, String tel, String troupeUrl){
         this.name = name;
         this.address = address;
         this.site = site;
         this.vk = vk;
         this.tel = tel;
+        this.troupeUrl = troupeUrl;
     }
 
     public int getImageId() {
@@ -24,7 +25,6 @@ public class Theater implements Serializable {
 
 
     public void setImageId(int imageId) {
-        //TODO описать сеттер ????
         this.imageId = imageId;
     }
 
@@ -66,5 +66,13 @@ public class Theater implements Serializable {
 
     public void setTel(String tel) {
         this.tel = tel;
+    }
+
+    public String getTroupeUrl() {
+        return troupeUrl;
+    }
+
+    public void setTroupeUrl(String troupeUrl) {
+        this.troupeUrl = troupeUrl;
     }
 }

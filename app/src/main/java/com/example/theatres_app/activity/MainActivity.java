@@ -1,4 +1,4 @@
-package com.example.theatres_app;
+package com.example.theatres_app.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.theatres_app.R;
 import com.example.theatres_app.model.Theater;
 
 public class MainActivity extends AppCompatActivity {
@@ -53,7 +54,8 @@ public class MainActivity extends AppCompatActivity {
                 getResources().getString(R.string.theaterTUZ_address),
                 getResources().getString(R.string.theaterTUZ_site),
                 getResources().getString(R.string.theaterTUZ_vk),
-                getResources().getString(R.string.theaterTUZ_tel));
+                getResources().getString(R.string.theaterTUZ_tel),
+                "https://ekvus-kirov.ru/truppa/");
     }
     private Theater getDram(){
         return new Theater(
@@ -61,7 +63,8 @@ public class MainActivity extends AppCompatActivity {
                 getResources().getString(R.string.theaterDrama_address),
                 getResources().getString(R.string.theaterDrama_site),
                 getResources().getString(R.string.theaterDrama_vk),
-                getResources().getString(R.string.theaterDrama_tel));
+                getResources().getString(R.string.theaterDrama_tel),
+                "https://kirovdramteatr.ru/truppa/");
     }
     private Theater getDol(){
         return new Theater(
@@ -69,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 getResources().getString(R.string.theaterDol_address),
                 getResources().getString(R.string.theaterDol_site),
                 getResources().getString(R.string.theaterDol_vk),
-                getResources().getString(R.string.theaterDol_tel));
+                getResources().getString(R.string.theaterDol_tel),
+                "http://kirovkukla.ru/truppa");
     }
 }
